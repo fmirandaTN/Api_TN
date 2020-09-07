@@ -18,8 +18,8 @@ phases:
       # - yum install -y libxslt-devel 
       # - yum install -y libxml2-devel xmlsec1-devel xmlsec1-openssl-devel libtool-ltdl-devels
       # - yum install -y pkgconfig
-      
-      - sudo yum install xmlsec1-devel pkg-config
+      - yum install -y libxml2-devel xmlsec1-devel xmlsec1-openssl-devel libtool-ltdl-devel pkgconfig
+      # - yum install xmlsec1-devel pkgconfig
       - pip install -r requirements.txt
 
   pre_build:
