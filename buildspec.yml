@@ -10,11 +10,11 @@ phases:
       # - yum install -y libxmlsec1-dev pkg-config
       # - yum install libxml2-devel xmlsec1-devel
       # xmlsec1-devel xmlsec1-openssl-devel libtool-ltdl-devel libxslt-devel libxml2-devel
+      
       - yum install -y python3-devel 
       - yum install -y libxslt-devel libxmlsec1-dev
       - yum install -y libxml2-devel xmlsec1-devel xmlsec1-openssl-devel libtool-ltdl-devels
-      - yum install -y pkg-config
-      # - dnf install libxml2-devel xmlsec1-devel xmlsec1-openssl-devel libtool-ltdl-devel
+      # - yum install -y pkg-config
       - pip install -r requirements.txt
 
   pre_build:
