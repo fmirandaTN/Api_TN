@@ -6,8 +6,8 @@ phases:
       python: 3.8
     commands:
       # Install dependencies needed for running tests
-      - apt-get update 
-      - apt-get install -y libxmlsec1-dev pkg-config
+      # - apt-get update 
+      - sudo apt-get install -y libxmlsec1-dev pkg-config
       - pip install -r requirements.txt
 
   pre_build:
