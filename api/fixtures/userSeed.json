@@ -1,0 +1,59 @@
+[
+    {
+        "model": "api.User",
+        "pk":1,
+        "fields":
+            {
+                "first_name": "Tomas",
+                "last_name": "Fuentes",
+                "username": "tifuentes",
+                "email": "tifuentes@tenecesito.cl",
+                "password": "tenecesito",
+                "created_at": "2020-06-11T15:16:48.290Z",
+                "updated_at":"2020-06-11T15:16:48.290Z"
+            }
+    },
+    {
+        "model": "api.User",
+        "pk":2,
+        "fields":
+            {
+                "first_name": "Francisco",
+                "last_name": "Miranda",
+                "username": "fmiranda",
+                "email": "fmiranda@tenecesito.cl",
+                "password": "tenecesito",
+                "created_at": "2020-06-11T15:16:48.290Z",
+                "updated_at":"2020-06-11T15:16:48.290Z"
+            }
+    },
+    {
+        "model": "api.User",
+        "pk":3,
+        "fields":
+            {
+                "first_name": "Tomas",
+                "last_name": "Correa",
+                "username": "tacorrea",
+                "email": "tacorrea@uc.cl",
+                "password": "tenecesito",
+                "created_at": "2020-06-11T15:16:48.290Z",
+                "updated_at":"2020-06-11T15:16:48.290Z"
+            }
+    },
+    {
+        "model": "api.User",
+        "pk":4,
+        "fields":
+            {
+                "first_name": "Benjamin",
+                "last_name": "Delpiano",
+                "username": "bidelp",
+                "email": "bidelp@uc.cl",
+                "password": "tenecesito",
+                "created_at": "2020-06-11T15:16:48.290Z",
+                "updated_at":"2020-06-11T15:16:48.290Z"
+            }
+    }
+]
+   

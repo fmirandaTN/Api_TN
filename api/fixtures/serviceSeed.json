@@ -1,0 +1,56 @@
+[
+    {
+        "model": "api.Service",
+        "pk":1,
+        "fields":
+            {
+                "title": "Desarrollador Web",
+                "description": "Poseo un gran manejo en el desarrollo de plataformas web de todo tipo",
+                "experience": "Recientemente desarrolle la pagina web de la pyme Chocolatoso SA (www.chocolatoso.cl)",
+                "owner": 1,
+                "categories": [10],
+                "min_price_range": 1000000,
+                "max_price_range": 2000000,
+                "work_modality": "mixed",
+                "created_at": "2020-06-11T15:16:48.290Z",
+                "updated_at":"2020-06-11T15:16:48.290Z",
+                "availability": "Lunes a sabado"
+            }
+    },
+    {
+        "model": "api.Service",
+        "pk":2,
+        "fields":
+            {
+                "title": "Servicios de contador",
+                "description": "Soy un contador con 10 años de experiencia, estoy dispuesto a asistr a cualquier empresa en sus temas de contabilidad y de libro mayor",
+                "experience": "Certificado por la CONTACH",
+                "owner": 2,
+                "categories": [1],
+                "min_price_range": 800000,
+                "max_price_range": 2500000,
+                "work_modality": "parttime",
+                "created_at": "2020-06-11T15:16:48.290Z",
+                "updated_at":"2020-06-11T15:16:48.290Z",
+                "availability": "Lunes, martes y jueves"
+            }
+    },
+    {
+        "model": "api.Service",
+        "pk":3,
+        "fields":
+            {
+                "title": "Egresado de derecho ofrece apoyo legal",
+                "description": "Ofrezco apoyo en cualquier tema legal, redaccion de contratos y consultoría",
+                "experience": "Recientemente egresado de la Universidad de Chile",
+                "owner": 3,
+                "categories": [2],
+                "min_price_range": 1000000,
+                "max_price_range": 2000000,
+                "work_modality": "mixed",
+                "created_at": "2020-06-11T15:16:48.290Z",
+                "updated_at":"2020-06-11T15:16:48.290Z",
+                "availability": "Lunes a viernes"
+            }
+    }
+]

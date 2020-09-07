@@ -1,0 +1,82 @@
+[
+    {
+        "model": "api.Rating",
+        "pk":1,
+        "fields":
+            {
+                "rating": 4,
+                "rating_type": "collaborator",
+                "project": 3
+            }
+    },
+    {
+        "model": "api.Rating",
+        "pk":2,
+        "fields":
+            {
+                "rating": 4,
+                "rating_type": "client",
+                "project": 3
+            }
+    },
+    {
+        "model": "api.Rating",
+        "pk":3,
+        "fields":
+            {
+                "rating": 5,
+                "rating_type": "collaborator",
+                "project": 5
+            }
+    },
+    {
+        "model": "api.Rating",
+        "pk":4,
+        "fields":
+            {
+                "rating": 3,
+                "rating_type": "client",
+                "project": 5
+            }
+    },
+    {
+        "model": "api.Rating",
+        "pk":3,
+        "fields":
+            {
+                "rating": 5,
+                "rating_type": "collaborator",
+                "project": 6
+            }
+    },
+    {
+        "model": "api.Rating",
+        "pk":4,
+        "fields":
+            {
+                "rating": 3,
+                "rating_type": "client",
+                "project": 6
+            }
+    },
+    {
+        "model": "api.Rating",
+        "pk":5,
+        "fields":
+            {
+                "rating": 1,
+                "rating_type": "collaborator",
+                "project": 7
+            }
+    },
+    {
+        "model": "api.Rating",
+        "pk":6,
+        "fields":
+            {
+                "rating": 4,
+                "rating_type": "client",
+                "project": 7
+            }
+    }
+]

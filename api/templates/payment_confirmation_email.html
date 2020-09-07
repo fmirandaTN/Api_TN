@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<body>
+    <!-- <center> -->
+        <h1><img src="https://tenecesito-bucket.s3-us-west-1.amazonaws.com/static/utils/LogoTN.png" alt="http://prueba.tenecesito.cl/" width="221" height="65"></h1>
+    <!-- </center> -->
+    <!-- <center> -->
+        <h2> Hola {{name}}</h2>
+    <!-- </center> -->
+    <p>El pago de tu proyecto "{{project_title}}" fue completado correctamente.</p>
+    <p></p>
+    <p><b>DETALLES DEL PAGO</b></p>
+    <p>
+        <table style="width:100%">
+            
+            <tr>
+              <td><b>Numero de orden de pago</b></td>
+              <td>{{order_number}}</td> 
+            </tr>
+            <tr>
+              <td><b>Fecha de Pago</b></td>
+              <td>{{date}}</td>
+            </tr>
+            <tr>
+              <td><b>Tipo de Pago</b></td>
+              <td>{{type_payment}}</td>
+            </tr>
+            <tr>
+              <td><b>Monto + IVA</b></td>
+              <td>CLP ${{gross_payment}}</td>
+            </tr>
+           
+          </table>
+    </p>
+    <p>
+        Puede revisar su factura en los proximos días en la pestaña "Cuentas Claras" de su perfil.
+    </p>
+    <p>
+        Saludo del equipo de Te Necesito.
+    </p>
+</body>
+</html>

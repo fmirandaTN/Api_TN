@@ -1,0 +1,7265 @@
+[
+    {
+        "model": "api.Category",
+        "pk": 1,
+        "fields": {
+            "name": "Administración y Finanzas",
+            "main_category": true
+        }
+    },
+    {
+        "model": "api.Category",
+        "pk": 2,
+        "fields": {
+            "name": "Contabilidad",
+            "main_category": false,
+            "category": 1
+        }
+    },
+    {
+        "model": "api.Category",
+        "pk": 3,
+        "fields": {
+            "name": "Finanzas",
+            "main_category": false,
+            "category": 1
+        }
+    },
+    {
+        "model": "api.Category",
+        "pk": 4,
+        "fields": {
+            "name": "Gestión de  proyectos",
+            "main_category": false,
+            "category": 1
+        }
+    },
+    {
+        "model": "api.Category",
+        "pk": 5,
+        "fields": {
+            "name": "Investigación de mercado",
+            "main_category": false,
+            "category": 1
+        }
+    },
+    {
+        "model": "api.Category",
+        "pk": 6,
+        "fields": {
+            "name": "Consultoría",
+            "main_category": false,
+            "category": 1
+        }
+    },
+    {
+        "model": "api.Category",
+        "pk": 7,
+        "fields": {
+            "name": "Auditorías",
+            "main_category": false,
+            "category": 1
+        }
+    },
+    {
+        "model": "api.Category",
+        "pk": 8,
+        "fields": {
+            "name": "Reclutamiento",
+            "main_category": false,
+            "category": 1
+        }
+    },
+    {
+        "model": "api.Category",
+        "pk": 9,
+        "fields": {
+            "name": "Otros",
+            "main_category": false,
+            "category": 1
+        }
+    },
+    {
+        "model": "api.Category",
+        "pk": 10,
+        "fields": {
+            "name": "Diseño y Multimedia",
+            "main_category": true
+        }
+    },
+    {
+        "model": "api.Category",
+        "pk": 11,
+        "fields": {
+            "name": "Diseño de Logo",
+            "main_category": false,
+            "category": 10
+        }
+    },
+    {
+        "model": "api.Category",
+        "pk": 12,
+        "fields": {
+            "name": "Diseño Web",
+            "main_category": false,
+            "category": 10
+        }
+    },
+    {
+        "model": "api.Category",
+        "pk": 13,
+        "fields": {
+            "name": "Ilustraciones",
+            "main_category": false,
+            "category": 10
+        }
+    },
+    {
+        "model": "api.Category",
+        "pk": 14,
+        "fields": {
+            "name": "Crear o editar Video",
+            "main_category": false,
+            "category": 10
+        }
+    },
+    {
+        "model": "api.Category",
+        "pk": 15,
+        "fields": {
+            "name": "Diseño de App",
+            "main_category": false,
+            "category": 10
+        }
+    },
+    {
+        "model": "api.Category",
+        "pk": 16,
+        "fields": {
+            "name": "Redes Sociales",
+            "main_category": false,
+            "category": 10
+        }
+    },
+    {
+        "model": "api.Category",
+        "pk": 17,
+        "fields": {
+            "name": "Diseño de vestuario",
+            "main_category": false,
+            "category": 10
+        }
+    },
+    {
+        "model": "api.Category",
+        "pk": 18,
+        "fields": {
+            "name": "Otros",
+            "main_category": false,
+            "category": 10
+        }
+    },
+    {
+        "model": "api.Category",
+        "pk": 19,
+        "fields": {
+            "name": "Marketing y Publicidad",
+            "main_category": true
+        }
+    },
+    {
+        "model": "api.Category",
+        "pk": 20,
+        "fields": {
+            "name": "Posicionamiento de marca (SEO)",
+            "main_category": false,
+            "category": 19
+        }
+    },
+    {
+        "model": "api.Category",
+        "pk": 21,
+        "fields": {
+            "name": "Community Management",
+            "main_category": false,
+            "category": 19
+        }
+    },
+    {
+        "model": "api.Category",
+        "pk": 22,
+        "fields": {
+            "name": "Publicidad en Google, Facebook, etc",
+            "main_category": false,
+            "category": 19
+        }
+    },
+    {
+        "model": "api.Category",
+        "pk": 23,
+        "fields": {
+            "name": "Email marketing",
+            "main_category": false,
+            "category": 19
+        }
+    },
+    {
+        "model": "api.Category",
+        "pk": 24,
+        "fields": {
+            "name": "Asesorías",
+            "main_category": false,
+            "category": 19
+        }
+    },
+    {
+        "model": "api.Category",
+        "pk": 25,
+        "fields": {
+            "name": "Landing Pages",
+            "main_category": false,
+            "category": 19
+        }
+    },
+    {
+        "model": "api.Category",
+        "pk": 26,
+        "fields": {
+            "name": "Otro",
+            "main_category": false,
+            "category": 19
+        }
+    },
+    {
+        "model": "api.Category",
+        "pk": 27,
+        "fields": {
+            "name": "Programación y Tecnología",
+            "main_category": true
+        }
+    },
+    {
+        "model": "api.Category",
+        "pk": 28,
+        "fields": {
+            "name": "Programación Web",
+            "main_category": false,
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Category",
+        "pk": 29,
+        "fields": {
+            "name": "Diseño Web",
+            "main_category": false,
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Category",
+        "pk": 30,
+        "fields": {
+            "name": "Wordpress",
+            "main_category": false,
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Category",
+        "pk": 31,
+        "fields": {
+            "name": "Programación de Apps móviles",
+            "main_category": false,
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Category",
+        "pk": 32,
+        "fields": {
+            "name": "Aplicaciones de escritorio",
+            "main_category": false,
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Category",
+        "pk": 33,
+        "fields": {
+            "name": "Ecommerce",
+            "main_category": false,
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Category",
+        "pk": 34,
+        "fields": {
+            "name": "Otros",
+            "main_category": false,
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Category",
+        "pk": 35,
+        "fields": {
+            "name": "Redacción y Traducción",
+            "main_category": true
+        }
+    },
+    {
+        "model": "api.Category",
+        "pk": 36,
+        "fields": {
+            "name": "Traducciones",
+            "main_category": false,
+            "category": 35
+        }
+    },
+    {
+        "model": "api.Category",
+        "pk": 37,
+        "fields": {
+            "name": "Redacción de artículos",
+            "main_category": false,
+            "category": 35
+        }
+    },
+    {
+        "model": "api.Category",
+        "pk": 38,
+        "fields": {
+            "name": "Corrección de documentos",
+            "main_category": false,
+            "category": 35
+        }
+    },
+    {
+        "model": "api.Category",
+        "pk": 39,
+        "fields": {
+            "name": "Redacción de sitios webs",
+            "main_category": false,
+            "category": 35
+        }
+    },
+    {
+        "model": "api.Category",
+        "pk": 40,
+        "fields": {
+            "name": "Guinoista",
+            "main_category": false,
+            "category": 35
+        }
+    },
+    {
+        "model": "api.Category",
+        "pk": 41,
+        "fields": {
+            "name": "Subtitulados",
+            "main_category": false,
+            "category": 35
+        }
+    },
+    {
+        "model": "api.Category",
+        "pk": 42,
+        "fields": {
+            "name": "Otros",
+            "main_category": false,
+            "category": 35
+        }
+    },
+    {
+        "model": "api.Category",
+        "pk": 43,
+        "fields": {
+            "name": "Legales",
+            "main_category": true
+        }
+    },
+    {
+        "model": "api.Category",
+        "pk": 44,
+        "fields": {
+            "name": "Asesoría legal",
+            "main_category": false,
+            "category": 43
+        }
+    },
+    {
+        "model": "api.Category",
+        "pk": 45,
+        "fields": {
+            "name": "Redacción y Revisión de escrituras",
+            "main_category": false,
+            "category": 43
+        }
+    },
+    {
+        "model": "api.Category",
+        "pk": 46,
+        "fields": {
+            "name": "Arbitrajes",
+            "main_category": false,
+            "category": 43
+        }
+    },
+    {
+        "model": "api.Category",
+        "pk": 47,
+        "fields": {
+            "name": "Redacción y Revisión de contratos",
+            "main_category": false,
+            "category": 43
+        }
+    },
+    {
+        "model": "api.Category",
+        "pk": 48,
+        "fields": {
+            "name": "Otros",
+            "main_category": false,
+            "category": 43
+        }
+    },
+    {
+        "model": "api.Category",
+        "pk": 49,
+        "fields": {
+            "name": "Arquitectura e Ingeniería",
+            "main_category": true
+        }
+    },
+    {
+        "model": "api.Category",
+        "pk": 50,
+        "fields": {
+            "name": "Diseño de planos",
+            "main_category": false,
+            "category": 49
+        }
+    },
+    {
+        "model": "api.Category",
+        "pk": 51,
+        "fields": {
+            "name": "Ingeniería Civil",
+            "main_category": false,
+            "category": 49
+        }
+    },
+    {
+        "model": "api.Category",
+        "pk": 52,
+        "fields": {
+            "name": "Ciencias e Investigación",
+            "main_category": false,
+            "category": 49
+        }
+    },
+    {
+        "model": "api.Category",
+        "pk": 53,
+        "fields": {
+            "name": "Modelos 3D",
+            "main_category": false,
+            "category": 49
+        }
+    },
+    {
+        "model": "api.Category",
+        "pk": 54,
+        "fields": {
+            "name": "Transporte y Logística",
+            "main_category": false,
+            "category": 49
+        }
+    },
+    {
+        "model": "api.Category",
+        "pk": 55,
+        "fields": {
+            "name": "Ingeniería Eléctrica",
+            "main_category": false,
+            "category": 49
+        }
+    },
+    {
+        "model": "api.Category",
+        "pk": 56,
+        "fields": {
+            "name": "Construcción",
+            "main_category": false,
+            "category": 49
+        }
+    },
+    {
+        "model": "api.Category",
+        "pk": 57,
+        "fields": {
+            "name": "Consultoría",
+            "main_category": false,
+            "category": 49
+        }
+    },
+    {
+        "model": "api.Category",
+        "pk": 58,
+        "fields": {
+            "name": "Otros",
+            "main_category": false,
+            "category": 49
+        }
+    },
+    {
+        "model": "api.Category",
+        "pk": 59,
+        "fields": {
+            "name": "Otros",
+            "main_category": true
+        }
+    },
+    {
+        "model": "api.Category",
+        "pk": 60,
+        "fields": {
+            "name": "Agricultura y Ganadería",
+            "main_category": false,
+            "category": 59
+        }
+    },
+    {
+        "model": "api.Category",
+        "pk": 61,
+        "fields": {
+            "name": "Mascotas",
+            "main_category": false,
+            "category": 59
+        }
+    },
+    {
+        "model": "api.Category",
+        "pk": 62,
+        "fields": {
+            "name": "Arte y Cultura",
+            "main_category": false,
+            "category": 59
+        }
+    },
+    {
+        "model": "api.Category",
+        "pk": 63,
+        "fields": {
+            "name": "Trabajo Social",
+            "main_category": false,
+            "category": 59
+        }
+    },
+    {
+        "model": "api.Category",
+        "pk": 64,
+        "fields": {
+            "name": "Jardinería",
+            "main_category": false,
+            "category": 59
+        }
+    },
+    {
+        "model": "api.Category",
+        "pk": 65,
+        "fields": {
+            "name": "Automóviles",
+            "main_category": false,
+            "category": 59
+        }
+    },
+    {
+        "model": "api.Category",
+        "pk": 66,
+        "fields": {
+            "name": "Belleza y Bienestar",
+            "main_category": false,
+            "category": 59
+        }
+    },
+    {
+        "model": "api.Category",
+        "pk": 67,
+        "fields": {
+            "name": "Ocio y Turismo",
+            "main_category": false,
+            "category": 59
+        }
+    },
+    {
+        "model": "api.Category",
+        "pk": 68,
+        "fields": {
+            "name": "Salud",
+            "main_category": false,
+            "category": 59
+        }
+    },
+    {
+        "model": "api.Category",
+        "pk": 69,
+        "fields": {
+            "name": "Favores",
+            "main_category": false,
+            "category": 59
+        }
+    },
+    {
+        "model": "api.Category",
+        "pk": 70,
+        "fields": {
+            "name": "Deportes",
+            "main_category": false,
+            "category": 59
+        }
+    },
+    {
+        "model": "api.Category",
+        "pk": 71,
+        "fields": {
+            "name": "Otros",
+            "main_category": false,
+            "category": 59
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 1,
+        "fields": {
+            "name": "Análisis contable",
+            "category": 1
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 2,
+        "fields": {
+            "name": "Analytics",
+            "category": 1
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 3,
+        "fields": {
+            "name": "Libros Contables",
+            "category": 1
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 4,
+        "fields": {
+            "name": "Presupuestos y pronósticos",
+            "category": 1
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 5,
+        "fields": {
+            "name": "Análisis funcional",
+            "category": 1
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 6,
+        "fields": {
+            "name": "Estrategia Corporativa",
+            "category": 1
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 7,
+        "fields": {
+            "name": "Análisis de los datos",
+            "category": 1
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 8,
+        "fields": {
+            "name": "Análisis financiero",
+            "category": 1
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 9,
+        "fields": {
+            "name": "Previsión financiera",
+            "category": 1
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 10,
+        "fields": {
+            "name": "Gestor financiero",
+            "category": 1
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 11,
+        "fields": {
+            "name": "Información Financiera",
+            "category": 1
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 12,
+        "fields": {
+            "name": "Estados Financieros",
+            "category": 1
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 13,
+        "fields": {
+            "name": "Análisis de recursos humanos",
+            "category": 1
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 14,
+        "fields": {
+            "name": "Gestión de inventario",
+            "category": 1
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 15,
+        "fields": {
+            "name": "Análisis de inversiones",
+            "category": 1
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 16,
+        "fields": {
+            "name": "Management",
+            "category": 1
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 17,
+        "fields": {
+            "name": "Negociador",
+            "category": 1
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 18,
+        "fields": {
+            "name": "Gestor de operaciones",
+            "category": 1
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 19,
+        "fields": {
+            "name": "Comportamiento Organizacional",
+            "category": 1
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 20,
+        "fields": {
+            "name": "Liquidador de sueldos",
+            "category": 1
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 21,
+        "fields": {
+            "name": "Estadística",
+            "category": 1
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 22,
+        "fields": {
+            "name": "Planificación Estratégica",
+            "category": 1
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 23,
+        "fields": {
+            "name": "Análisis de impuestos",
+            "category": 1
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 24,
+        "fields": {
+            "name": "MercadoPago",
+            "category": 1
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 25,
+        "fields": {
+            "name": "Payroll",
+            "category": 1
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 26,
+        "fields": {
+            "name": "Análisi de Riesgo",
+            "category": 1
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 27,
+        "fields": {
+            "name": "Compliance",
+            "category": 1
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 28,
+        "fields": {
+            "name": "Asistente administrativo",
+            "category": 1
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 29,
+        "fields": {
+            "name": "Servicio al Cliente",
+            "category": 1
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 30,
+        "fields": {
+            "name": "Tareas de Oficina",
+            "category": 1
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 31,
+        "fields": {
+            "name": "Microsoft Excel",
+            "category": 1
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 32,
+        "fields": {
+            "name": "Microsoft Outlook",
+            "category": 1
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 33,
+        "fields": {
+            "name": "Microsoft PowerPoint",
+            "category": 1
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 34,
+        "fields": {
+            "name": "Administrador de Office",
+            "category": 1
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 35,
+        "fields": {
+            "name": "Investigador",
+            "category": 1
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 36,
+        "fields": {
+            "name": "Telefonista",
+            "category": 1
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 37,
+        "fields": {
+            "name": "Prezi",
+            "category": 1
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 38,
+        "fields": {
+            "name": "Soporte Administrativo",
+            "category": 1
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 39,
+        "fields": {
+            "name": "Atención al cliente",
+            "category": 1
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 40,
+        "fields": {
+            "name": "Microsoft Dynamics 365",
+            "category": 1
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 41,
+        "fields": {
+            "name": "E-learning",
+            "category": 1
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 42,
+        "fields": {
+            "name": "SAP",
+            "category": 1
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 43,
+        "fields": {
+            "name": "Microsoft Word",
+            "category": 1
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 44,
+        "fields": {
+            "name": "Bsale",
+            "category": 1
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 45,
+        "fields": {
+            "name": "Modelado 3D",
+            "category": 10
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 46,
+        "fields": {
+            "name": "Adobe After Effects",
+            "category": 10
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 47,
+        "fields": {
+            "name": "Animación digital",
+            "category": 10
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 48,
+        "fields": {
+            "name": "Dirección de Arte",
+            "category": 10
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 49,
+        "fields": {
+            "name": "Edición de audio",
+            "category": 10
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 50,
+        "fields": {
+            "name": "Avid",
+            "category": 10
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 51,
+        "fields": {
+            "name": "Diseño de tarjetas",
+            "category": 10
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 52,
+        "fields": {
+            "name": "Caligrafía",
+            "category": 10
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 53,
+        "fields": {
+            "name": "Camtasia",
+            "category": 10
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 54,
+        "fields": {
+            "name": "Dibujos Animados",
+            "category": 10
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 55,
+        "fields": {
+            "name": "Cinema 4D",
+            "category": 10
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 56,
+        "fields": {
+            "name": "Corel Ventura",
+            "category": 10
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 57,
+        "fields": {
+            "name": "Coreldraw",
+            "category": 10
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 58,
+        "fields": {
+            "name": "Identidad de marca corporativa",
+            "category": 10
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 59,
+        "fields": {
+            "name": "Diseño de la portada",
+            "category": 10
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 60,
+        "fields": {
+            "name": "Adobe Creative Suite",
+            "category": 10
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 61,
+        "fields": {
+            "name": "Fotografía Digital",
+            "category": 10
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 62,
+        "fields": {
+            "name": "Adobe Director",
+            "category": 10
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 63,
+        "fields": {
+            "name": "Adobe Dreamweaber",
+            "category": 10
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 64,
+        "fields": {
+            "name": "DVD Studio Pro",
+            "category": 10
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 65,
+        "fields": {
+            "name": "Electronic Design",
+            "category": 10
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 66,
+        "fields": {
+            "name": "Diseño de Exteriores",
+            "category": 10
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 67,
+        "fields": {
+            "name": "Diseño de moda",
+            "category": 10
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 68,
+        "fields": {
+            "name": "Final Cut",
+            "category": 10
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 69,
+        "fields": {
+            "name": "Adobe Fireworks",
+            "category": 10
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 70,
+        "fields": {
+            "name": "Adobe Framemaker",
+            "category": 10
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 71,
+        "fields": {
+            "name": "Adobe Freehand",
+            "category": 10
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 72,
+        "fields": {
+            "name": "Frontpage",
+            "category": 10
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 73,
+        "fields": {
+            "name": "Diseñador gráfico",
+            "category": 10
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 74,
+        "fields": {
+            "name": "Ilustrador",
+            "category": 10
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 75,
+        "fields": {
+            "name": "Diseñador de Illustrator",
+            "category": 10
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 76,
+        "fields": {
+            "name": "InCopy",
+            "category": 10
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 77,
+        "fields": {
+            "name": "Adobe InDesign",
+            "category": 10
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 78,
+        "fields": {
+            "name": "Packaging",
+            "category": 10
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 79,
+        "fields": {
+            "name": "Diseño de Paisajes",
+            "category": 10
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 80,
+        "fields": {
+            "name": "LightWave 3D",
+            "category": 10
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 81,
+        "fields": {
+            "name": "Microsoft Expression Studio",
+            "category": 10
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 82,
+        "fields": {
+            "name": "Microsoft Publisher",
+            "category": 10
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 83,
+        "fields": {
+            "name": "Microsoft Visio",
+            "category": 10
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 84,
+        "fields": {
+            "name": "Editor de música",
+            "category": 10
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 85,
+        "fields": {
+            "name": "Diseñador de newsletter",
+            "category": 10
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 86,
+        "fields": {
+            "name": "Adobe Pagemaker",
+            "category": 10
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 87,
+        "fields": {
+            "name": "Diseño de PCB",
+            "category": 10
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 88,
+        "fields": {
+            "name": "Fotografía",
+            "category": 10
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 89,
+        "fields": {
+            "name": "Diseñador Adobe Photoshop",
+            "category": 10
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 90,
+        "fields": {
+            "name": "Adobe Premiere",
+            "category": 10
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 91,
+        "fields": {
+            "name": "Diseñador de presentaciones",
+            "category": 10
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 92,
+        "fields": {
+            "name": "Quark Xpress",
+            "category": 10
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 93,
+        "fields": {
+            "name": "Sony Vegas",
+            "category": 10
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 94,
+        "fields": {
+            "name": "Diseñador UI",
+            "category": 10
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 95,
+        "fields": {
+            "name": "Edición de vídeo",
+            "category": 10
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 96,
+        "fields": {
+            "name": "Productor de video",
+            "category": 10
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 97,
+        "fields": {
+            "name": "Videografía",
+            "category": 10
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 98,
+        "fields": {
+            "name": "Actuación de voz",
+            "category": 10
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 99,
+        "fields": {
+            "name": "Voice Over",
+            "category": 10
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 100,
+        "fields": {
+            "name": "Locutor",
+            "category": 10
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 101,
+        "fields": {
+            "name": "Zbrush",
+            "category": 10
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 102,
+        "fields": {
+            "name": "Diseñador web wordpress",
+            "category": 10
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 103,
+        "fields": {
+            "name": "Imágen Corporative",
+            "category": 10
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 104,
+        "fields": {
+            "name": "Arte e Ilustración",
+            "category": 10
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 105,
+        "fields": {
+            "name": "Slideshow de Fotos",
+            "category": 10
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 106,
+        "fields": {
+            "name": "Tarjeta de Invitación",
+            "category": 10
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 107,
+        "fields": {
+            "name": "Adobe Muse",
+            "category": 10
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 108,
+        "fields": {
+            "name": "Adobe Encore",
+            "category": 10
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 109,
+        "fields": {
+            "name": "Adobe Audition",
+            "category": 10
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 110,
+        "fields": {
+            "name": "Adobe Captivate",
+            "category": 10
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 111,
+        "fields": {
+            "name": "Adobe Lightroom",
+            "category": 10
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 112,
+        "fields": {
+            "name": "Adobe Soundbooth",
+            "category": 10
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 113,
+        "fields": {
+            "name": "Adobe Business Catalyst",
+            "category": 10
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 114,
+        "fields": {
+            "name": "Programador Maquetación",
+            "category": 10
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 115,
+        "fields": {
+            "name": "PSD to HTML",
+            "category": 10
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 116,
+        "fields": {
+            "name": "Microsoft Project",
+            "category": 10
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 117,
+        "fields": {
+            "name": "Microsoft Office",
+            "category": 10
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 118,
+        "fields": {
+            "name": "UML Design",
+            "category": 10
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 119,
+        "fields": {
+            "name": "Diseño Editorial",
+            "category": 10
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 120,
+        "fields": {
+            "name": "Diseñador de Tipografías",
+            "category": 10
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 121,
+        "fields": {
+            "name": "3D Rendering",
+            "category": 10
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 122,
+        "fields": {
+            "name": "Diseño técnico",
+            "category": 10
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 123,
+        "fields": {
+            "name": "Motion Graphics",
+            "category": 10
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 124,
+        "fields": {
+            "name": "Diseñador Material Design",
+            "category": 10
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 125,
+        "fields": {
+            "name": "Adobe Edge Animate",
+            "category": 10
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 126,
+        "fields": {
+            "name": "Diseño de sonido",
+            "category": 10
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 127,
+        "fields": {
+            "name": "Maquetación",
+            "category": 10
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 128,
+        "fields": {
+            "name": "Diseñador UX",
+            "category": 10
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 129,
+        "fields": {
+            "name": "Animación 3D",
+            "category": 10
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 130,
+        "fields": {
+            "name": "Retoque fotográfico",
+            "category": 10
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 131,
+        "fields": {
+            "name": "Apple Logic Pro",
+            "category": 10
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 132,
+        "fields": {
+            "name": "Diseñador Pixel Art",
+            "category": 10
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 133,
+        "fields": {
+            "name": "Finale / Sibelius",
+            "category": 10
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 134,
+        "fields": {
+            "name": "Diseñador de Sketch",
+            "category": 10
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 135,
+        "fields": {
+            "name": "Diseñador de banners",
+            "category": 10
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 136,
+        "fields": {
+            "name": "Imágenes para redes sociales",
+            "category": 10
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 137,
+        "fields": {
+            "name": "Diseñador de infografias",
+            "category": 10
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 138,
+        "fields": {
+            "name": "Diseñador de logos",
+            "category": 10
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 139,
+        "fields": {
+            "name": "Diseñador de aplicaciones móviles",
+            "category": 10
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 140,
+        "fields": {
+            "name": "Diseñador web",
+            "category": 10
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 141,
+        "fields": {
+            "name": "Blender 3D",
+            "category": 10
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 142,
+        "fields": {
+            "name": "Canva",
+            "category": 10
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 143,
+        "fields": {
+            "name": "Diseño de Juegos",
+            "category": 10
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 144,
+        "fields": {
+            "name": "Lumion",
+            "category": 10
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 145,
+        "fields": {
+            "name": "Pro Tools",
+            "category": 10
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 146,
+        "fields": {
+            "name": "Publicidad",
+            "category": 19
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 147,
+        "fields": {
+            "name": "Marketing de afiliados",
+            "category": 19
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 148,
+        "fields": {
+            "name": "AWeber",
+            "category": 19
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 149,
+        "fields": {
+            "name": "Branding",
+            "category": 19
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 150,
+        "fields": {
+            "name": "Marketing Directo",
+            "category": 19
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 151,
+        "fields": {
+            "name": "Planificación de eventos",
+            "category": 19
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 152,
+        "fields": {
+            "name": "Freelance de Marketing",
+            "category": 19
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 153,
+        "fields": {
+            "name": "AdSense de Google",
+            "category": 19
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 154,
+        "fields": {
+            "name": "AdWords de Google",
+            "category": 19
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 155,
+        "fields": {
+            "name": "Google Analytics",
+            "category": 19
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 156,
+        "fields": {
+            "name": "Google Webmaster Central",
+            "category": 19
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 157,
+        "fields": {
+            "name": "Google +",
+            "category": 19
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 158,
+        "fields": {
+            "name": "Análisis de marketing digital",
+            "category": 19
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 159,
+        "fields": {
+            "name": "Lead Generation",
+            "category": 19
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 160,
+        "fields": {
+            "name": "MailChimp",
+            "category": 19
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 161,
+        "fields": {
+            "name": "Investigación de Mercado",
+            "category": 19
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 162,
+        "fields": {
+            "name": "Marketing",
+            "category": 19
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 163,
+        "fields": {
+            "name": "Estrategia de Marketing",
+            "category": 19
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 164,
+        "fields": {
+            "name": "Relaciones Públicas",
+            "category": 19
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 165,
+        "fields": {
+            "name": "Discursos Públicos",
+            "category": 19
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 166,
+        "fields": {
+            "name": "Ventas",
+            "category": 19
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 167,
+        "fields": {
+            "name": "Social Media Marketing",
+            "category": 19
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 168,
+        "fields": {
+            "name": "Business Coaching",
+            "category": 19
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 169,
+        "fields": {
+            "name": "Inteligencia empresarial",
+            "category": 19
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 170,
+        "fields": {
+            "name": "Publicidad en Google, Facebook",
+            "category": 19
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 171,
+        "fields": {
+            "name": "Community manager",
+            "category": 19
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 172,
+        "fields": {
+            "name": "Email marketing",
+            "category": 19
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 173,
+        "fields": {
+            "name": "Consultor SEO",
+            "category": 19
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 174,
+        "fields": {
+            "name": "Publicidades en redes sociales",
+            "category": 19
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 175,
+        "fields": {
+            "name": "Cold Calling",
+            "category": 19
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 176,
+        "fields": {
+            "name": "Experiencia de cliente",
+            "category": 19
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 177,
+        "fields": {
+            "name": "Facebook Ads",
+            "category": 19
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 178,
+        "fields": {
+            "name": "Google GSuite",
+            "category": 19
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 179,
+        "fields": {
+            "name": "Hubspot",
+            "category": 19
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 180,
+        "fields": {
+            "name": "Inbound Marketing",
+            "category": 19
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 181,
+        "fields": {
+            "name": "Instagram",
+            "category": 19
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 182,
+        "fields": {
+            "name": "Instagram Ads",
+            "category": 19
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 183,
+        "fields": {
+            "name": "Microsoft Office365",
+            "category": 19
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 184,
+        "fields": {
+            "name": "Soluciones de ventas",
+            "category": 19
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 185,
+        "fields": {
+            "name": "Representante de Desarrollo de Ventas",
+            "category": 19
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 186,
+        "fields": {
+            "name": "Telemarketer",
+            "category": 19
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 187,
+        "fields": {
+            "name": "Programador .NET",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 188,
+        "fields": {
+            "name": "Programador ABAP",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 189,
+        "fields": {
+            "name": "Adobe Acrobat",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 190,
+        "fields": {
+            "name": "Programador ActionScript",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 191,
+        "fields": {
+            "name": "Active Directory",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 192,
+        "fields": {
+            "name": "Programador ADONET",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 193,
+        "fields": {
+            "name": "Programador Adobe AIR",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 194,
+        "fields": {
+            "name": "Programador AJAX",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 195,
+        "fields": {
+            "name": "Programador Amazon Web Services",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 196,
+        "fields": {
+            "name": "Programador AMember",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 197,
+        "fields": {
+            "name": "Programador Android",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 198,
+        "fields": {
+            "name": "Antispam and Antivirus",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 199,
+        "fields": {
+            "name": "Apache",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 200,
+        "fields": {
+            "name": "Programador API",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 201,
+        "fields": {
+            "name": "Articulate",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 202,
+        "fields": {
+            "name": "Programador ASP",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 203,
+        "fields": {
+            "name": "Programador ASPNET",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 204,
+        "fields": {
+            "name": "Assembla",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 205,
+        "fields": {
+            "name": "Programador Asterisk",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 206,
+        "fields": {
+            "name": "Atom",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 207,
+        "fields": {
+            "name": "Bada",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 208,
+        "fields": {
+            "name": "Programador BlackBerry",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 209,
+        "fields": {
+            "name": "Programador Bluetooth",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 210,
+        "fields": {
+            "name": "Boxnet",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 211,
+        "fields": {
+            "name": "BPCS",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 212,
+        "fields": {
+            "name": "BuddyPress",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 213,
+        "fields": {
+            "name": "BusinessObjects",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 214,
+        "fields": {
+            "name": "Programador C",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 215,
+        "fields": {
+            "name": "Programador C Shell",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 216,
+        "fields": {
+            "name": "Programador C#",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 217,
+        "fields": {
+            "name": "Programador C++",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 218,
+        "fields": {
+            "name": "Programador CakePHP",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 219,
+        "fields": {
+            "name": "Caspio",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 220,
+        "fields": {
+            "name": "CCNA",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 221,
+        "fields": {
+            "name": "CDMA",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 222,
+        "fields": {
+            "name": "CentOS",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 223,
+        "fields": {
+            "name": "Central Desktop",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 224,
+        "fields": {
+            "name": "Checkpoint",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 225,
+        "fields": {
+            "name": "Cisco",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 226,
+        "fields": {
+            "name": "Citrix",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 227,
+        "fields": {
+            "name": "Programador COBOL",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 228,
+        "fields": {
+            "name": "Cocoa",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 229,
+        "fields": {
+            "name": "CodeIgniter",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 230,
+        "fields": {
+            "name": "Codesion",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 231,
+        "fields": {
+            "name": "Cognos",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 232,
+        "fields": {
+            "name": "Programador ColdFusion",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 233,
+        "fields": {
+            "name": "Compiler",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 234,
+        "fields": {
+            "name": "Computer Graphics",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 235,
+        "fields": {
+            "name": "Content Management System",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 236,
+        "fields": {
+            "name": "CORBA",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 237,
+        "fields": {
+            "name": "Programador CPanel",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 238,
+        "fields": {
+            "name": "Craigslist",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 239,
+        "fields": {
+            "name": "CRM",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 240,
+        "fields": {
+            "name": "Crystal Reports",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 241,
+        "fields": {
+            "name": "CS-Cart",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 242,
+        "fields": {
+            "name": "Maquetador CSS",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 243,
+        "fields": {
+            "name": "CURL",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 244,
+        "fields": {
+            "name": "Modelado de Datos",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 245,
+        "fields": {
+            "name": "Estructura de Datos",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 246,
+        "fields": {
+            "name": "Data Warehousing",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 247,
+        "fields": {
+            "name": "Administrador de base de datos",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 248,
+        "fields": {
+            "name": "DB2",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 249,
+        "fields": {
+            "name": "Programador DBase",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 250,
+        "fields": {
+            "name": "Programador Delphi",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 251,
+        "fields": {
+            "name": "Desktop Support",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 252,
+        "fields": {
+            "name": "Programador DHTML",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 253,
+        "fields": {
+            "name": "Dimdim",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 254,
+        "fields": {
+            "name": "Programador Django",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 255,
+        "fields": {
+            "name": "Programador DOS",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 256,
+        "fields": {
+            "name": "Dot Net Nuke",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 257,
+        "fields": {
+            "name": "Programador DotNet",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 258,
+        "fields": {
+            "name": "Programador DotNet 20",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 259,
+        "fields": {
+            "name": "Dropio",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 260,
+        "fields": {
+            "name": "Programador Drupal",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 261,
+        "fields": {
+            "name": "E4X",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 262,
+        "fields": {
+            "name": "EBay Web Services",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 263,
+        "fields": {
+            "name": "Programador Eclipse",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 264,
+        "fields": {
+            "name": "Programador EJB",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 265,
+        "fields": {
+            "name": "Elgg",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 266,
+        "fields": {
+            "name": "Embedded System",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 267,
+        "fields": {
+            "name": "Programador Erlang",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 268,
+        "fields": {
+            "name": "ERP",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 269,
+        "fields": {
+            "name": "Ext GWT",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 270,
+        "fields": {
+            "name": "Ext JS",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 271,
+        "fields": {
+            "name": "Programador Facebook",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 272,
+        "fields": {
+            "name": "FFmpeg",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 273,
+        "fields": {
+            "name": "FileMaker",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 274,
+        "fields": {
+            "name": "FireWall",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 275,
+        "fields": {
+            "name": "Programador Adobe Flash",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 276,
+        "fields": {
+            "name": "Adobe Flex",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 277,
+        "fields": {
+            "name": "Foursquare",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 278,
+        "fields": {
+            "name": "Programador FoxPro",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 279,
+        "fields": {
+            "name": "FTP",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 280,
+        "fields": {
+            "name": "Desarrollador de juegos",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 281,
+        "fields": {
+            "name": "Programador de juegos",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 282,
+        "fields": {
+            "name": "Geolocation",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 283,
+        "fields": {
+            "name": "Programador Google App Engine",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 284,
+        "fields": {
+            "name": "Programador Google Go",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 285,
+        "fields": {
+            "name": "Programador Google Maps",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 286,
+        "fields": {
+            "name": "Google Web Toolkit",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 287,
+        "fields": {
+            "name": "Programador Haskell",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 288,
+        "fields": {
+            "name": "Programador Hibernate",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 289,
+        "fields": {
+            "name": "Programador Honeycomb",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 290,
+        "fields": {
+            "name": "Programador HTML",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 291,
+        "fields": {
+            "name": "Programador HTML5",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 292,
+        "fields": {
+            "name": "Hyperion",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 293,
+        "fields": {
+            "name": "Informática",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 294,
+        "fields": {
+            "name": "Programador Informix",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 295,
+        "fields": {
+            "name": "Infusionsoft",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 296,
+        "fields": {
+            "name": "Internet Information Services",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 297,
+        "fields": {
+            "name": "Internet Security",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 298,
+        "fields": {
+            "name": "Interspire",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 299,
+        "fields": {
+            "name": "Programador IOS",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 300,
+        "fields": {
+            "name": "Programador IPad",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 301,
+        "fields": {
+            "name": "Programador IPhone",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 302,
+        "fields": {
+            "name": "Programador J2EE",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 303,
+        "fields": {
+            "name": "Programador J2ME",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 304,
+        "fields": {
+            "name": "Programador Java",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 305,
+        "fields": {
+            "name": "Programador JavaScript",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 306,
+        "fields": {
+            "name": "Programador Jboss",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 307,
+        "fields": {
+            "name": "Programador JDBC",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 308,
+        "fields": {
+            "name": "Jetpack",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 309,
+        "fields": {
+            "name": "JomSocial",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 310,
+        "fields": {
+            "name": "Programador Joomla!",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 311,
+        "fields": {
+            "name": "Programador JQuery",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 312,
+        "fields": {
+            "name": "Programador JSharp",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 313,
+        "fields": {
+            "name": "Programador JSON",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 314,
+        "fields": {
+            "name": "Programador JSP",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 315,
+        "fields": {
+            "name": "Juniper",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 316,
+        "fields": {
+            "name": "Programador Kernel",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 317,
+        "fields": {
+            "name": "LabVIEW",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 318,
+        "fields": {
+            "name": "LabWindows/CVI",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 319,
+        "fields": {
+            "name": "Programador LAMP",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 320,
+        "fields": {
+            "name": "Lawson",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 321,
+        "fields": {
+            "name": "Liferay",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 322,
+        "fields": {
+            "name": "Link Building",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 323,
+        "fields": {
+            "name": "LinkedIn",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 324,
+        "fields": {
+            "name": "Linux",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 325,
+        "fields": {
+            "name": "Mac OS",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 326,
+        "fields": {
+            "name": "Mac OS X",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 327,
+        "fields": {
+            "name": "Programador Magento",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 328,
+        "fields": {
+            "name": "MATLAB",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 329,
+        "fields": {
+            "name": "Microsoft Access",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 330,
+        "fields": {
+            "name": "Microsoft Azure",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 331,
+        "fields": {
+            "name": "Microsoft Commerce Server",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 332,
+        "fields": {
+            "name": "Microsoft Dynamics",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 333,
+        "fields": {
+            "name": "Microsoft Dynamics AX",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 334,
+        "fields": {
+            "name": "Microsoft Dynamics CRM",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 335,
+        "fields": {
+            "name": "Microsoft Dynamics GP",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 336,
+        "fields": {
+            "name": "Microsoft Dynamics NAV",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 337,
+        "fields": {
+            "name": "Microsoft Dynamics SL",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 338,
+        "fields": {
+            "name": "Microsoft Lync",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 339,
+        "fields": {
+            "name": "Microsoft Office Live Web Design",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 340,
+        "fields": {
+            "name": "Microsoft Sharepoint",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 341,
+        "fields": {
+            "name": "Microsoft Silverlight",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 342,
+        "fields": {
+            "name": "Microsoft System Center",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 343,
+        "fields": {
+            "name": "Microsoft Transaction Server",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 344,
+        "fields": {
+            "name": "Programador Microsoft Visual Studio",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 345,
+        "fields": {
+            "name": "MODx",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 346,
+        "fields": {
+            "name": "Moodle",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 347,
+        "fields": {
+            "name": "MooTools",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 348,
+        "fields": {
+            "name": "Programador MT4",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 349,
+        "fields": {
+            "name": "MySpace",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 350,
+        "fields": {
+            "name": "MySQL",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 351,
+        "fields": {
+            "name": "Programador NetBeans",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 352,
+        "fields": {
+            "name": "NetSuite",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 353,
+        "fields": {
+            "name": "Administrador de redes",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 354,
+        "fields": {
+            "name": "Análisis de redes",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 355,
+        "fields": {
+            "name": "Arquitecto de redes",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 356,
+        "fields": {
+            "name": "Ingeniero de redes",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 357,
+        "fields": {
+            "name": "Manager de redes",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 358,
+        "fields": {
+            "name": "Programador de redes",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 359,
+        "fields": {
+            "name": "Especialista de redes",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 360,
+        "fields": {
+            "name": "diseño de redes",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 361,
+        "fields": {
+            "name": "Ning",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 362,
+        "fields": {
+            "name": "Programador Node.js",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 363,
+        "fields": {
+            "name": "Programador Objective-C",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 364,
+        "fields": {
+            "name": "Programador OLAP",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 365,
+        "fields": {
+            "name": "Programador OOPS",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 366,
+        "fields": {
+            "name": "OoVoo",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 367,
+        "fields": {
+            "name": "OpenGL",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 368,
+        "fields": {
+            "name": "Programador OpenSocial",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 369,
+        "fields": {
+            "name": "OpenTok",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 370,
+        "fields": {
+            "name": "Oracle",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 371,
+        "fields": {
+            "name": "Oracle 10g",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 372,
+        "fields": {
+            "name": "Oracle 11g",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 373,
+        "fields": {
+            "name": "Oracle 9i",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 374,
+        "fields": {
+            "name": "Oracle Database Security",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 375,
+        "fields": {
+            "name": "Oracle DBA",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 376,
+        "fields": {
+            "name": "Oracle Forms",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 377,
+        "fields": {
+            "name": "Oracle Fusion",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 378,
+        "fields": {
+            "name": "Oracle Fusion Middleware",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 379,
+        "fields": {
+            "name": "Oracle MySQL",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 380,
+        "fields": {
+            "name": "Oracle PL/SQL",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 381,
+        "fields": {
+            "name": "Oracle Solaris 10",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 382,
+        "fields": {
+            "name": "Oracle Solaris 11",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 383,
+        "fields": {
+            "name": "Oracle WebLogic Server",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 384,
+        "fields": {
+            "name": "Programador OsCommerce",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 385,
+        "fields": {
+            "name": "Palm",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 386,
+        "fields": {
+            "name": "Programador PayPal",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 387,
+        "fields": {
+            "name": "Programador PBworks",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 388,
+        "fields": {
+            "name": "Programador PeopleSoft",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 389,
+        "fields": {
+            "name": "Programador Perl",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 390,
+        "fields": {
+            "name": "Programador PHP",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 391,
+        "fields": {
+            "name": "Programador PHPBB",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 392,
+        "fields": {
+            "name": "Programador PL/SQL",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 393,
+        "fields": {
+            "name": "Programador Plesk",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 394,
+        "fields": {
+            "name": "Pligg",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 395,
+        "fields": {
+            "name": "Posterous",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 396,
+        "fields": {
+            "name": "PostgresSQL",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 397,
+        "fields": {
+            "name": "Power Builder",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 398,
+        "fields": {
+            "name": "Programador PowerShell",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 399,
+        "fields": {
+            "name": "Programador PrestaShop",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 400,
+        "fields": {
+            "name": "Programming Aptitude",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 401,
+        "fields": {
+            "name": "ProtoShare",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 402,
+        "fields": {
+            "name": "Programador Prototype JavaScript Framework",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 403,
+        "fields": {
+            "name": "Programador Python",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 404,
+        "fields": {
+            "name": "QA",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 405,
+        "fields": {
+            "name": "Programador Qt",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 406,
+        "fields": {
+            "name": "RDF",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 407,
+        "fields": {
+            "name": "REALBasic",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 408,
+        "fields": {
+            "name": "RPG",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 409,
+        "fields": {
+            "name": "RSS",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 410,
+        "fields": {
+            "name": "Programador RTML",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 411,
+        "fields": {
+            "name": "Programador Ruby",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 412,
+        "fields": {
+            "name": "Programador Ruby on Rails",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 413,
+        "fields": {
+            "name": "Programador Salesforcecom",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 414,
+        "fields": {
+            "name": "SAP",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 415,
+        "fields": {
+            "name": "SAS Business Analytics",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 416,
+        "fields": {
+            "name": "Programador Scala",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 417,
+        "fields": {
+            "name": "Scripts & Utilities",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 418,
+        "fields": {
+            "name": "Análisis de seguridad",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 419,
+        "fields": {
+            "name": "Security Engineer",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 420,
+        "fields": {
+            "name": "Security Infrastructure Architect",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 421,
+        "fields": {
+            "name": "Sencha",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 422,
+        "fields": {
+            "name": "Sencha Touch",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 423,
+        "fields": {
+            "name": "Programador Shopify",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 424,
+        "fields": {
+            "name": "Programador Siebel",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 425,
+        "fields": {
+            "name": "Skype",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 426,
+        "fields": {
+            "name": "Smarty",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 427,
+        "fields": {
+            "name": "Programador SOAP",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 428,
+        "fields": {
+            "name": "Social Media Optimization",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 429,
+        "fields": {
+            "name": "Social Networking",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 430,
+        "fields": {
+            "name": "Software Testing",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 431,
+        "fields": {
+            "name": "Solaris",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 432,
+        "fields": {
+            "name": "Programador SQL",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 433,
+        "fields": {
+            "name": "Programador SQL Lite",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 434,
+        "fields": {
+            "name": "SQL Server",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 435,
+        "fields": {
+            "name": "Programador Struts",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 436,
+        "fields": {
+            "name": "Programador Subversion",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 437,
+        "fields": {
+            "name": "Programador SugarCRM",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 438,
+        "fields": {
+            "name": "SunGard",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 439,
+        "fields": {
+            "name": "Programador Sybase",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 440,
+        "fields": {
+            "name": "Symbian",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 441,
+        "fields": {
+            "name": "Programador Symfony",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 442,
+        "fields": {
+            "name": "System Analysis",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 443,
+        "fields": {
+            "name": "System Programming",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 444,
+        "fields": {
+            "name": "Programador Tcl/Tk",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 445,
+        "fields": {
+            "name": "Programador TCP/IP",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 446,
+        "fields": {
+            "name": "Technical Support",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 447,
+        "fields": {
+            "name": "Testing",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 448,
+        "fields": {
+            "name": "TokBox",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 449,
+        "fields": {
+            "name": "Tomcat",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 450,
+        "fields": {
+            "name": "Programador Twilio",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 451,
+        "fields": {
+            "name": "Programador Twitter",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 452,
+        "fields": {
+            "name": "TypePad",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 453,
+        "fields": {
+            "name": "Programador TYPO3",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 454,
+        "fields": {
+            "name": "Programador Ubercart",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 455,
+        "fields": {
+            "name": "Unix",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 456,
+        "fields": {
+            "name": "Programador VB.NET",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 457,
+        "fields": {
+            "name": "Programador VBA",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 458,
+        "fields": {
+            "name": "Programador Vbulletin",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 459,
+        "fields": {
+            "name": "Programador VirtueMart",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 460,
+        "fields": {
+            "name": "Programador Visual Basic",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 461,
+        "fields": {
+            "name": "Programador VOIP",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 462,
+        "fields": {
+            "name": "Programador Volusion",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 463,
+        "fields": {
+            "name": "VPN",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 464,
+        "fields": {
+            "name": "Programador Vtiger",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 465,
+        "fields": {
+            "name": "Web Security Manager",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 466,
+        "fields": {
+            "name": "Programador Web Services",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 467,
+        "fields": {
+            "name": "Programador WebLogic",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 468,
+        "fields": {
+            "name": "Programador WebSphere",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 469,
+        "fields": {
+            "name": "WHMCS",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 470,
+        "fields": {
+            "name": "Programador Wi-Fi",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 471,
+        "fields": {
+            "name": "Windows",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 472,
+        "fields": {
+            "name": "Windows 7",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 473,
+        "fields": {
+            "name": "Windows 8",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 474,
+        "fields": {
+            "name": "Windows Mobile",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 475,
+        "fields": {
+            "name": "Windows Phone",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 476,
+        "fields": {
+            "name": "Windows Vista",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 477,
+        "fields": {
+            "name": "Programador WordPress",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 478,
+        "fields": {
+            "name": "Programador X-Cart",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 479,
+        "fields": {
+            "name": "Programador Xcode",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 480,
+        "fields": {
+            "name": "Programador XHTML",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 481,
+        "fields": {
+            "name": "Programador XML",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 482,
+        "fields": {
+            "name": "Programador XSLT",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 483,
+        "fields": {
+            "name": "Yahoo Developer Skills",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 484,
+        "fields": {
+            "name": "Yahoo Store",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 485,
+        "fields": {
+            "name": "Programador YAML",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 486,
+        "fields": {
+            "name": "Yola",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 487,
+        "fields": {
+            "name": "YouTube",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 488,
+        "fields": {
+            "name": "Zen Cart",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 489,
+        "fields": {
+            "name": "Zend",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 490,
+        "fields": {
+            "name": "Programador Zoho Creator",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 491,
+        "fields": {
+            "name": "Programador web",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 492,
+        "fields": {
+            "name": "Programador Laravel",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 493,
+        "fields": {
+            "name": "Programador Bootstrap",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 494,
+        "fields": {
+            "name": "Programador Arduino",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 495,
+        "fields": {
+            "name": "Opencart",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 496,
+        "fields": {
+            "name": "Programador AngularJS",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 497,
+        "fields": {
+            "name": "Programador CSS3",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 498,
+        "fields": {
+            "name": "Programador MVC",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 499,
+        "fields": {
+            "name": "Programador Java Server Faces (JSF)",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 500,
+        "fields": {
+            "name": "Programador Git",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 501,
+        "fields": {
+            "name": "Programador MongoDB",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 502,
+        "fields": {
+            "name": "Programador Scrum",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 503,
+        "fields": {
+            "name": "Programador Spring Framework",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 504,
+        "fields": {
+            "name": "Programador Spring Security",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 505,
+        "fields": {
+            "name": "Programador Elasticsearch",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 506,
+        "fields": {
+            "name": "Programador Solr",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 507,
+        "fields": {
+            "name": "Programador Lucene",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 508,
+        "fields": {
+            "name": "Programador Phonegap",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 509,
+        "fields": {
+            "name": "Programador CMS",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 510,
+        "fields": {
+            "name": "Google Earth",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 511,
+        "fields": {
+            "name": "Administrador Nginx",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 512,
+        "fields": {
+            "name": "SVN",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 513,
+        "fields": {
+            "name": "Microsoft Windows Server",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 514,
+        "fields": {
+            "name": "Programador JBoss Seam",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 515,
+        "fields": {
+            "name": "Programador Firebird",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 516,
+        "fields": {
+            "name": "Programador Responsive Web Design",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 517,
+        "fields": {
+            "name": "Programador Swift",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 518,
+        "fields": {
+            "name": "Administrador Squid",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 519,
+        "fields": {
+            "name": "Programador Backbone.js",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 520,
+        "fields": {
+            "name": "Xamarin",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 521,
+        "fields": {
+            "name": "Programador WooCommerce",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 522,
+        "fields": {
+            "name": "Programador Dart",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 523,
+        "fields": {
+            "name": "Saas",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 524,
+        "fields": {
+            "name": "Programador Knockout.js",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 525,
+        "fields": {
+            "name": "Programador Unity 3D",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 526,
+        "fields": {
+            "name": "Administrador RethinkDB",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 527,
+        "fields": {
+            "name": "Programador React.js",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 528,
+        "fields": {
+            "name": "Programador Shell Scripting",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 529,
+        "fields": {
+            "name": "Open Cart",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 530,
+        "fields": {
+            "name": "Lotus Notes",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 531,
+        "fields": {
+            "name": "Verilog / VHDL",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 532,
+        "fields": {
+            "name": "Tecnología educativa",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 533,
+        "fields": {
+            "name": "Programador Heroku",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 534,
+        "fields": {
+            "name": "Grunt",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 535,
+        "fields": {
+            "name": "Programador Ember.js",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 536,
+        "fields": {
+            "name": "Programador Unreal Engine",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 537,
+        "fields": {
+            "name": "Braspag",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 538,
+        "fields": {
+            "name": "Grails",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 539,
+        "fields": {
+            "name": "GeneXus",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 540,
+        "fields": {
+            "name": "Lotus Domino Server",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 541,
+        "fields": {
+            "name": "OpenGTS",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 542,
+        "fields": {
+            "name": "Programador Jekyll",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 543,
+        "fields": {
+            "name": "Programador NHibernate",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 544,
+        "fields": {
+            "name": "Red5",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 545,
+        "fields": {
+            "name": "Programador Apache Cordova",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 546,
+        "fields": {
+            "name": "LESS/SASS/SCSS",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 547,
+        "fields": {
+            "name": "XMPP",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 548,
+        "fields": {
+            "name": "Programador Yii",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 549,
+        "fields": {
+            "name": "Parallax scrolling",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 550,
+        "fields": {
+            "name": "Autodesk Revit",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 551,
+        "fields": {
+            "name": "Apex",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 552,
+        "fields": {
+            "name": "Programador OpenStack",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 553,
+        "fields": {
+            "name": "Programador Phalcon",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 554,
+        "fields": {
+            "name": "ScriptCase",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 555,
+        "fields": {
+            "name": "Programador Wix",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 556,
+        "fields": {
+            "name": "Programador Smalltalk",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 557,
+        "fields": {
+            "name": "Administrador Apache Maven",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 558,
+        "fields": {
+            "name": "Programador Silex",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 559,
+        "fields": {
+            "name": "Programador Slim",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 560,
+        "fields": {
+            "name": "Programador Doctrine",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 561,
+        "fields": {
+            "name": "Administrador Google Cloud Platform",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 562,
+        "fields": {
+            "name": "Administrador Puppet",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 563,
+        "fields": {
+            "name": "Administrador VMware",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 564,
+        "fields": {
+            "name": "AutoCAD Architecture",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 565,
+        "fields": {
+            "name": "AutoCAD Civil 3D",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 566,
+        "fields": {
+            "name": "AutoCAD Electrical",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 567,
+        "fields": {
+            "name": "AutoCAD Map 3D",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 568,
+        "fields": {
+            "name": "AutoCAD LT",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 569,
+        "fields": {
+            "name": "AutoCAD MEP",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 570,
+        "fields": {
+            "name": "AutoCAD Plant 3D",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 571,
+        "fields": {
+            "name": "Administrador Postfix",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 572,
+        "fields": {
+            "name": "Sendgrid",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 573,
+        "fields": {
+            "name": "OpenCV",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 574,
+        "fields": {
+            "name": "Qlikview",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 575,
+        "fields": {
+            "name": "SPSS",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 576,
+        "fields": {
+            "name": "Programador Big Data",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 577,
+        "fields": {
+            "name": "Administrador MariaDB",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 578,
+        "fields": {
+            "name": "Asistente virtual",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 579,
+        "fields": {
+            "name": "Programador Meteor JS",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 580,
+        "fields": {
+            "name": "Programador Ionic Framework",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 581,
+        "fields": {
+            "name": "Programador PrimeFaces",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 582,
+        "fields": {
+            "name": "Programador Socket IO",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 583,
+        "fields": {
+            "name": "Programador Redis",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 584,
+        "fields": {
+            "name": "Video 360",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 585,
+        "fields": {
+            "name": "Programador Pentaho",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 586,
+        "fields": {
+            "name": "Docker",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 587,
+        "fields": {
+            "name": "Microstrategy",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 588,
+        "fields": {
+            "name": "Tableau",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 589,
+        "fields": {
+            "name": "Programador Fortran",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 590,
+        "fields": {
+            "name": "Programador Batch",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 591,
+        "fields": {
+            "name": "Risk Management",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 592,
+        "fields": {
+            "name": "Programador RabbitMQ",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 593,
+        "fields": {
+            "name": "Growth hacker",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 594,
+        "fields": {
+            "name": "Administrador Qmail",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 595,
+        "fields": {
+            "name": "Apple Motion",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 596,
+        "fields": {
+            "name": "Programador Selenium",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 597,
+        "fields": {
+            "name": "Programador Apache Hadoop",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 598,
+        "fields": {
+            "name": "Programador Apache Hive",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 599,
+        "fields": {
+            "name": "Administrador FreeBSD",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 600,
+        "fields": {
+            "name": "Inteligencia artificial",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 601,
+        "fields": {
+            "name": "Oculus SDK",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 602,
+        "fields": {
+            "name": "Programador SCADA",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 603,
+        "fields": {
+            "name": "Programador PLC",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 604,
+        "fields": {
+            "name": "Programador Realidad Aumentada",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 605,
+        "fields": {
+            "name": "Administrador Ubuntu",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 606,
+        "fields": {
+            "name": "Programador Aplicaciones de escritorio",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 607,
+        "fields": {
+            "name": "Tiendas virtuales (ecommerce)",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 608,
+        "fields": {
+            "name": "Data Scientist",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 609,
+        "fields": {
+            "name": "Programador Bitcoin",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 610,
+        "fields": {
+            "name": "Programador Blockchain",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 611,
+        "fields": {
+            "name": "Programador AltBeacon",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 612,
+        "fields": {
+            "name": "Programador IBeacon",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 613,
+        "fields": {
+            "name": "Programador Eddystone",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 614,
+        "fields": {
+            "name": "Programador Criptografía",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 615,
+        "fields": {
+            "name": "Programador Criptomoneda",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 616,
+        "fields": {
+            "name": "Programador Firebase",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 617,
+        "fields": {
+            "name": "Kubernetes",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 618,
+        "fields": {
+            "name": "Power BI",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 619,
+        "fields": {
+            "name": "Talend",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 620,
+        "fields": {
+            "name": "Extract Transform Load (ETL)",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 621,
+        "fields": {
+            "name": "Programador Go Lang",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 622,
+        "fields": {
+            "name": "Programador Electron",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 623,
+        "fields": {
+            "name": "Programador Vue.js",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 624,
+        "fields": {
+            "name": "Programador React Native",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 625,
+        "fields": {
+            "name": "Programador Flutter",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 626,
+        "fields": {
+            "name": "Programador NativeScript",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 627,
+        "fields": {
+            "name": "Consultor JIRA",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 628,
+        "fields": {
+            "name": "Programador .Net Core",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 629,
+        "fields": {
+            "name": "Analisis Funcional",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 630,
+        "fields": {
+            "name": "Programador Angular 7",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 631,
+        "fields": {
+            "name": "Programador Angular 8",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 632,
+        "fields": {
+            "name": "Programador Angular 9",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 633,
+        "fields": {
+            "name": "Programador Chatbot",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 634,
+        "fields": {
+            "name": "Data Mining",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 635,
+        "fields": {
+            "name": "DevOps",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 636,
+        "fields": {
+            "name": "GatsbyJS",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 637,
+        "fields": {
+            "name": "Machine Learning",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 638,
+        "fields": {
+            "name": "Programador Microservices",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 639,
+        "fields": {
+            "name": "Administrador Microsoft Exchange",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 640,
+        "fields": {
+            "name": "Microsoft Flow",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 641,
+        "fields": {
+            "name": "Microsoft PowerApps",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 642,
+        "fields": {
+            "name": "OpenERP",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 643,
+        "fields": {
+            "name": "Oracle Apex",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 644,
+        "fields": {
+            "name": "Qa Automation",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 645,
+        "fields": {
+            "name": "Qliksense",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 646,
+        "fields": {
+            "name": "R developers R programming language",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 647,
+        "fields": {
+            "name": "Spark AR Studio",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 648,
+        "fields": {
+            "name": "Zoho CRM",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 649,
+        "fields": {
+            "name": "Zoho ONE",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 650,
+        "fields": {
+            "name": "Tienda Nube",
+            "category": 27
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 651,
+        "fields": {
+            "name": "Redactor académico",
+            "category": 35
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 652,
+        "fields": {
+            "name": "Traductor español-árabe",
+            "category": 35
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 653,
+        "fields": {
+            "name": "Redactor de articulos",
+            "category": 35
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 654,
+        "fields": {
+            "name": "Redactor para blog",
+            "category": 35
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 655,
+        "fields": {
+            "name": "Traductor español-portugués",
+            "category": 35
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 656,
+        "fields": {
+            "name": "Escritor comercial",
+            "category": 35
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 657,
+        "fields": {
+            "name": "Redactor de textos infantiles",
+            "category": 35
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 658,
+        "fields": {
+            "name": "Traductor español-chino",
+            "category": 35
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 659,
+        "fields": {
+            "name": "Redactor publicitario",
+            "category": 35
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 660,
+        "fields": {
+            "name": "Escritor creativo",
+            "category": 35
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 661,
+        "fields": {
+            "name": "Traductor español-danés",
+            "category": 35
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 662,
+        "fields": {
+            "name": "Traductor español-holandés",
+            "category": 35
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 663,
+        "fields": {
+            "name": "EBooks",
+            "category": 35
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 664,
+        "fields": {
+            "name": "Edición",
+            "category": 35
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 665,
+        "fields": {
+            "name": "Redactor",
+            "category": 35
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 666,
+        "fields": {
+            "name": "Redactor de ficción",
+            "category": 35
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 667,
+        "fields": {
+            "name": "Redactor de finanzas",
+            "category": 35
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 668,
+        "fields": {
+            "name": "Traductor español-francés",
+            "category": 35
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 669,
+        "fields": {
+            "name": "Traductor español-alemán",
+            "category": 35
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 670,
+        "fields": {
+            "name": "Escritura sustituta",
+            "category": 35
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 671,
+        "fields": {
+            "name": "Gramática",
+            "category": 35
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 672,
+        "fields": {
+            "name": "Traductor español-italiano",
+            "category": 35
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 673,
+        "fields": {
+            "name": "Traductor español-japonés",
+            "category": 35
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 674,
+        "fields": {
+            "name": "Redactor periodístico",
+            "category": 35
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 675,
+        "fields": {
+            "name": "Traductor español-coreano",
+            "category": 35
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 676,
+        "fields": {
+            "name": "Redactor jurídico",
+            "category": 35
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 677,
+        "fields": {
+            "name": "Escritura Lírica",
+            "category": 35
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 678,
+        "fields": {
+            "name": "Traductor español-mandarín",
+            "category": 35
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 679,
+        "fields": {
+            "name": "Redactor médico",
+            "category": 35
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 680,
+        "fields": {
+            "name": "Microsoft Word",
+            "category": 35
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 681,
+        "fields": {
+            "name": "Newsletters",
+            "category": 35
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 682,
+        "fields": {
+            "name": "Escritura - No Ficción",
+            "category": 35
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 683,
+        "fields": {
+            "name": "Traductor español-noruego",
+            "category": 35
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 684,
+        "fields": {
+            "name": "Escritor online",
+            "category": 35
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 685,
+        "fields": {
+            "name": "Poeta",
+            "category": 35
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 686,
+        "fields": {
+            "name": "Traductor español-polaco",
+            "category": 35
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 687,
+        "fields": {
+            "name": "Comunicado de Prensa",
+            "category": 35
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 688,
+        "fields": {
+            "name": "Corrector de textos",
+            "category": 35
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 689,
+        "fields": {
+            "name": "Redacción de Propuestas",
+            "category": 35
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 690,
+        "fields": {
+            "name": "Puntuación",
+            "category": 35
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 691,
+        "fields": {
+            "name": "Redacción de informes",
+            "category": 35
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 692,
+        "fields": {
+            "name": "Confección de CVs",
+            "category": 35
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 693,
+        "fields": {
+            "name": "Traductor español-ruso",
+            "category": 35
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 694,
+        "fields": {
+            "name": "Cartas de Ventas",
+            "category": 35
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 695,
+        "fields": {
+            "name": "Escritor comercial",
+            "category": 35
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 696,
+        "fields": {
+            "name": "Guionista",
+            "category": 35
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 697,
+        "fields": {
+            "name": "Redactor de guiones",
+            "category": 35
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 698,
+        "fields": {
+            "name": "Traductor español-inglés",
+            "category": 35
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 699,
+        "fields": {
+            "name": "Redactor de discursos",
+            "category": 35
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 700,
+        "fields": {
+            "name": "Ortografía",
+            "category": 35
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 701,
+        "fields": {
+            "name": "Redactor deportivo",
+            "category": 35
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 702,
+        "fields": {
+            "name": "Traductor español-sueco",
+            "category": 35
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 703,
+        "fields": {
+            "name": "Redactor técnico",
+            "category": 35
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 704,
+        "fields": {
+            "name": "Redactor de turismo",
+            "category": 35
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 705,
+        "fields": {
+            "name": "Traductor español-ucraniano",
+            "category": 35
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 706,
+        "fields": {
+            "name": "Guías de usuario",
+            "category": 35
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 707,
+        "fields": {
+            "name": "Redactor de contenido web",
+            "category": 35
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 708,
+        "fields": {
+            "name": "Procesamiento de textos",
+            "category": 35
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 709,
+        "fields": {
+            "name": "WordPerfect",
+            "category": 35
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 710,
+        "fields": {
+            "name": "Traductor",
+            "category": 35
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 711,
+        "fields": {
+            "name": "Adobe PDF",
+            "category": 35
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 712,
+        "fields": {
+            "name": "Adobe InCopy",
+            "category": 35
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 713,
+        "fields": {
+            "name": "Wordfast",
+            "category": 35
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 714,
+        "fields": {
+            "name": "SDL Trados",
+            "category": 35
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 715,
+        "fields": {
+            "name": "Traductor español-inglés",
+            "category": 35
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 716,
+        "fields": {
+            "name": "Traductor árabe-español",
+            "category": 35
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 717,
+        "fields": {
+            "name": "Traductor portugués-español",
+            "category": 35
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 718,
+        "fields": {
+            "name": "Traductor español-chino",
+            "category": 35
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 719,
+        "fields": {
+            "name": "Traductor danés-español",
+            "category": 35
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 720,
+        "fields": {
+            "name": "Traductor holandés-español",
+            "category": 35
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 721,
+        "fields": {
+            "name": "Traductor español-francés",
+            "category": 35
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 722,
+        "fields": {
+            "name": "Traductor español-alemán",
+            "category": 35
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 723,
+        "fields": {
+            "name": "Traductor italiano-español",
+            "category": 35
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 724,
+        "fields": {
+            "name": "Traductor español-japonés",
+            "category": 35
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 725,
+        "fields": {
+            "name": "Traductor español-coreano",
+            "category": 35
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 726,
+        "fields": {
+            "name": "Traductor mandarín-español",
+            "category": 35
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 727,
+        "fields": {
+            "name": "Traductor noruego-español",
+            "category": 35
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 728,
+        "fields": {
+            "name": "Traductor español-polaco",
+            "category": 35
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 729,
+        "fields": {
+            "name": "Traductor ruso-español",
+            "category": 35
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 730,
+        "fields": {
+            "name": "Traductor Español",
+            "category": 35
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 731,
+        "fields": {
+            "name": "Traductor sueco-español",
+            "category": 35
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 732,
+        "fields": {
+            "name": "Traductor ucraniano-español",
+            "category": 35
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 733,
+        "fields": {
+            "name": "Traductor Inglés",
+            "category": 35
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 734,
+        "fields": {
+            "name": "Subtitulado",
+            "category": 35
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 735,
+        "fields": {
+            "name": "MemoQ",
+            "category": 35
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 736,
+        "fields": {
+            "name": "Traductor español-armenio",
+            "category": 35
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 737,
+        "fields": {
+            "name": "Traductor español-griego",
+            "category": 35
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 738,
+        "fields": {
+            "name": "Traductor español-hebreo",
+            "category": 35
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 739,
+        "fields": {
+            "name": "Publicaciones para redes sociales",
+            "category": 35
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 740,
+        "fields": {
+            "name": "Traductor Bengali",
+            "category": 35
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 741,
+        "fields": {
+            "name": "Traductor Lenguaje de Señas",
+            "category": 35
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 742,
+        "fields": {
+            "name": "Traductor Malayo",
+            "category": 35
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 743,
+        "fields": {
+            "name": "Traductor Persa",
+            "category": 35
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 744,
+        "fields": {
+            "name": "UX Writing",
+            "category": 35
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 745,
+        "fields": {
+            "name": "Defensa de la Competencia",
+            "category": 43
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 746,
+        "fields": {
+            "name": "Quiebra",
+            "category": 43
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 747,
+        "fields": {
+            "name": "Beneficios de la Ley",
+            "category": 43
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 748,
+        "fields": {
+            "name": "Préstamos Comerciales",
+            "category": 43
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 749,
+        "fields": {
+            "name": "Compensación",
+            "category": 43
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 750,
+        "fields": {
+            "name": "Protección al consumidor",
+            "category": 43
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 751,
+        "fields": {
+            "name": "Ley de Contratos",
+            "category": 43
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 752,
+        "fields": {
+            "name": "Contratos",
+            "category": 43
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 753,
+        "fields": {
+            "name": "Derechos de Autor",
+            "category": 43
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 754,
+        "fields": {
+            "name": "Derecho Corporativo",
+            "category": 43
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 755,
+        "fields": {
+            "name": "Creatividad y Talento",
+            "category": 43
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 756,
+        "fields": {
+            "name": "Comercio Electrónico",
+            "category": 43
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 757,
+        "fields": {
+            "name": "Ley de Empleo",
+            "category": 43
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 758,
+        "fields": {
+            "name": "Medio ambiente",
+            "category": 43
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 759,
+        "fields": {
+            "name": "Derecho de Familia",
+            "category": 43
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 760,
+        "fields": {
+            "name": "Ley de Inmigración",
+            "category": 43
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 761,
+        "fields": {
+            "name": "Seguros",
+            "category": 43
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 762,
+        "fields": {
+            "name": "Propiedad Intelectual",
+            "category": 43
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 763,
+        "fields": {
+            "name": "Derecho Internacional",
+            "category": 43
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 764,
+        "fields": {
+            "name": "Asesor legal",
+            "category": 43
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 765,
+        "fields": {
+            "name": "Investigación Jurídica",
+            "category": 43
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 766,
+        "fields": {
+            "name": "Transcripción legal",
+            "category": 43
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 767,
+        "fields": {
+            "name": "Licencias",
+            "category": 43
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 768,
+        "fields": {
+            "name": "Litigio",
+            "category": 43
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 769,
+        "fields": {
+            "name": "Derecho Médico",
+            "category": 43
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 770,
+        "fields": {
+            "name": "Paralegal",
+            "category": 43
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 771,
+        "fields": {
+            "name": "Derecho de Patentes",
+            "category": 43
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 772,
+        "fields": {
+            "name": "Privacidad",
+            "category": 43
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 773,
+        "fields": {
+            "name": "Responsabilidad por productos defectuosos",
+            "category": 43
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 774,
+        "fields": {
+            "name": "Derecho Inmobiliario",
+            "category": 43
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 775,
+        "fields": {
+            "name": "Gestión de registros",
+            "category": 43
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 776,
+        "fields": {
+            "name": "Derecho Tributario",
+            "category": 43
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 777,
+        "fields": {
+            "name": "Derecho Mercantil",
+            "category": 43
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 778,
+        "fields": {
+            "name": "Marcas",
+            "category": 43
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 779,
+        "fields": {
+            "name": "Fideicomisos Sucesiones Testamentos",
+            "category": 43
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 780,
+        "fields": {
+            "name": "Derecho Civil",
+            "category": 43
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 781,
+        "fields": {
+            "name": "Modelador 3D",
+            "category": 49
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 782,
+        "fields": {
+            "name": "Diseñador 3ds Max",
+            "category": 49
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 783,
+        "fields": {
+            "name": "AEC",
+            "category": 49
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 784,
+        "fields": {
+            "name": "Altium Designer",
+            "category": 49
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 785,
+        "fields": {
+            "name": "Amplificadores y filtros",
+            "category": 49
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 786,
+        "fields": {
+            "name": "ANSYS",
+            "category": 49
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 787,
+        "fields": {
+            "name": "ArchiCAD",
+            "category": 49
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 788,
+        "fields": {
+            "name": "Arquitecto",
+            "category": 49
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 789,
+        "fields": {
+            "name": "AutoCAD",
+            "category": 49
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 790,
+        "fields": {
+            "name": "Autodesk Inventor",
+            "category": 49
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 791,
+        "fields": {
+            "name": "Ingeniero químico",
+            "category": 49
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 792,
+        "fields": {
+            "name": "Diseño de Circuitos",
+            "category": 49
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 793,
+        "fields": {
+            "name": "Ingeniero civil",
+            "category": 49
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 794,
+        "fields": {
+            "name": "Ingeniero en computación",
+            "category": 49
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 795,
+        "fields": {
+            "name": "COSMOS",
+            "category": 49
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 796,
+        "fields": {
+            "name": "Ingeniero eléctrico",
+            "category": 49
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 797,
+        "fields": {
+            "name": "Técnico electrónico",
+            "category": 49
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 798,
+        "fields": {
+            "name": "Fibra Óptica",
+            "category": 49
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 799,
+        "fields": {
+            "name": "Formz",
+            "category": 49
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 800,
+        "fields": {
+            "name": "Google SketchUp Pro",
+            "category": 49
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 801,
+        "fields": {
+            "name": "Diseñador industrial",
+            "category": 49
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 802,
+        "fields": {
+            "name": "Ingeniero industrial",
+            "category": 49
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 803,
+        "fields": {
+            "name": "Circuito Integrado",
+            "category": 49
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 804,
+        "fields": {
+            "name": "Diseñador de interiores",
+            "category": 49
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 805,
+        "fields": {
+            "name": "ISO9001",
+            "category": 49
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 806,
+        "fields": {
+            "name": "Kaizen",
+            "category": 49
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 807,
+        "fields": {
+            "name": "Lean",
+            "category": 49
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 808,
+        "fields": {
+            "name": "Diseño y Fabricación",
+            "category": 49
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 809,
+        "fields": {
+            "name": "Ingeniero en materiales",
+            "category": 49
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 810,
+        "fields": {
+            "name": "MathCAD",
+            "category": 49
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 811,
+        "fields": {
+            "name": "Maya",
+            "category": 49
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 812,
+        "fields": {
+            "name": "Ingeniero mecánico",
+            "category": 49
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 813,
+        "fields": {
+            "name": "Investigación de Operaciones",
+            "category": 49
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 814,
+        "fields": {
+            "name": "OrCAD",
+            "category": 49
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 815,
+        "fields": {
+            "name": "Pro-E",
+            "category": 49
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 816,
+        "fields": {
+            "name": "Rhino CAD",
+            "category": 49
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 817,
+        "fields": {
+            "name": "Computación Científica",
+            "category": 49
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 818,
+        "fields": {
+            "name": "Semiconductor",
+            "category": 49
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 819,
+        "fields": {
+            "name": "Diseñador Sketchup",
+            "category": 49
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 820,
+        "fields": {
+            "name": "SolidWorks",
+            "category": 49
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 821,
+        "fields": {
+            "name": "Análisis Estructural",
+            "category": 49
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 822,
+        "fields": {
+            "name": "Vectorworks",
+            "category": 49
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 823,
+        "fields": {
+            "name": "VLSI",
+            "category": 49
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 824,
+        "fields": {
+            "name": "WiMAX",
+            "category": 49
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 825,
+        "fields": {
+            "name": "Wireless",
+            "category": 49
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 826,
+        "fields": {
+            "name": "Logistic & Shipping",
+            "category": 49
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 827,
+        "fields": {
+            "name": "Dibujos en CAD",
+            "category": 49
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 828,
+        "fields": {
+            "name": "Diseñador ArcGIS",
+            "category": 49
+        }
+    },
+    {
+        "model": "api.Skill",
+        "pk": 829,
+        "fields": {
+            "name": "Diseñador Qgis",
+            "category": 49
+        }
+    }
+]

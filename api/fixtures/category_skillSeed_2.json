@@ -1,0 +1,220 @@
+[
+    {
+        "model": "api.Category",
+        "pk":1,
+        "fields":
+            {
+                "name": "Diseño"
+            }
+    },
+    {
+        "model": "api.Category",
+        "pk":2,
+        "fields":
+            {
+                "name": "TI y Software"
+            }
+    },
+    {
+        "model": "api.Category",
+        "pk":3,
+        "fields":
+            {
+                "name": "Periodismo"    
+            }
+    },
+    {
+        "model": "api.Category",
+        "pk":4,
+        "fields":
+            {
+                "name": "Publicidad"
+            }
+    },
+    {
+        "model": "api.Category",
+        "pk":5,
+        "fields":
+            {
+                "name": "Contabilidad y Finanzas"    
+            }
+    },
+    {
+        "model": "api.Category",
+        "pk":6,
+        "fields":
+            {
+                "name": "Redaccion y Traduccion"
+            }
+    },
+    {
+        "model": "api.Category",
+        "pk":7,
+        "fields":
+            {
+                "name": "Legal"    
+            }
+    },
+    {
+        "model": "api.Category",
+        "pk":8,
+        "fields":
+            {
+                "name": "Arquitectura"
+            }
+    },
+
+    {
+        "model": "api.Skill",
+        "pk":1,
+        "fields":
+            {
+                "name": "Adobe Photoshop",
+                "category": 1
+            }
+    },
+    {
+        "model": "api.Skill",
+        "pk":2,
+        "fields":
+            {
+                "name": "Adobe Illustrator",
+                "category": 1
+            }
+    },
+    {
+        "model": "api.Skill",
+        "pk":3,
+        "fields":
+            {
+                "name": "Wordpress",
+                "category": 1
+            }
+    },
+    {
+        "model": "api.Skill",
+        "pk":4,
+        "fields":
+            {
+                "name": "Python",
+                "category": 2
+            }
+    },
+    {
+        "model": "api.Skill",
+        "pk":5,
+        "fields":
+            {
+                "name": "Javascript",
+                "category": 2
+            }
+    },
+    {
+        "model": "api.Skill",
+        "pk":6,
+        "fields":
+            {
+                "name": "React",
+                "category": 2
+            }
+    },
+    {
+        "model": "api.Skill",
+        "pk":7,
+        "fields":
+            {
+                "name": "SQL",
+                "category": 3
+            }
+    },
+    {
+        "model": "api.Skill",
+        "pk":8,
+        "fields":
+            {
+                "name": "Node.js",
+                "category": 1
+            }
+    },
+    {
+        "model": "api.Skill",
+        "pk":9,
+        "fields":
+            {
+                "name": "Transcripción",
+                "category": 3
+            }
+    },
+    {
+        "model": "api.Skill",
+        "pk":10,
+        "fields":
+            {
+                "name": "Redacción",
+                "category": 3
+            }
+    },
+    {
+        "model": "api.Skill",
+        "pk":11,
+        "fields":
+            {
+                "name": "Transcripción",
+                "category": 3
+            }
+    },
+    {
+        "model": "api.Skill",
+        "pk":12,
+        "fields":
+            {
+                "name": "Marketing",
+                "category": 4
+            }
+    },
+    {
+        "model": "api.Skill",
+        "pk":13,
+        "fields":
+            {
+                "name": "Publicidad en Google",
+                "category": 4
+            }
+    },
+    {
+        "model": "api.Skill",
+        "pk":14,
+        "fields":
+            {
+                "name": "Publicidad en Facebook",
+                "category": 4
+            }
+    },
+    {
+        "model": "api.Skill",
+        "pk":15,
+        "fields":
+            {
+                "name": "Google anlytics",
+                "category": 4
+            }
+    },
+    {
+        "model": "api.Skill",
+        "pk":16,
+        "fields":
+            {
+                "name": "Traducción a español",
+                "category": 6
+            }
+    },
+    {
+        "model": "api.Skill",
+        "pk":17,
+        "fields":
+            {
+                "name": "Traducción a Ingles",
+                "category": 6
+            }
+    }
+]
