@@ -12,13 +12,14 @@ phases:
       # xmlsec1-devel xmlsec1-openssl-devel libtool-ltdl-devel libxslt-devel libxml2-devel
 
       # - yum check-update
-      - yum install -y python3 python3-devel python3-libs python3-tools
+      # - yum install -y python3 python3-devel python3-libs python3-tools
 
 
-      - yum install -y libxslt-devel 
-      - yum install -y libxml2-devel xmlsec1-devel xmlsec1-openssl-devel libtool-ltdl-devels
-      - yum install -y pkgconfig
-      # - yum install -y pkg-config
+      # - yum install -y libxslt-devel 
+      # - yum install -y libxml2-devel xmlsec1-devel xmlsec1-openssl-devel libtool-ltdl-devels
+      # - yum install -y pkgconfig
+      
+      - sudo yum install xmlsec1-devel pkg-config
       - pip install -r requirements.txt
 
   pre_build:
