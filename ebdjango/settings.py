@@ -157,7 +157,7 @@ elif 'RDS_HOSTNAME' in os.environ:
             'PORT': os.environ['RDS_PORT'],
         }
     }
-
+# Cambios pal push
 else:
     # LOCAL DATABASE
     # DATABASES = {
