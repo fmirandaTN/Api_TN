@@ -146,7 +146,7 @@ if 'DATABASE_URL' in os.environ:
         'default': dj_database_url.config(default=config('DATABASE_URL'))
     }
 
-elif 'RDS_HOSTNAME' in os.environ:
+elif 'RDS_DB_NAME' in os.environ:
     DATABASES = {
         'default': {
             'ENGINE': 'django.db.backends.postgresql_psycopg2',
@@ -159,25 +159,15 @@ elif 'RDS_HOSTNAME' in os.environ:
     }
 # Cambios pal push
 else:
-    # LOCAL DATABASE
-    # DATABASES = {
-    #     'default': {
-    #         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-    #         'NAME': 'postgres',
-    #         'USER': 'postgres',
-    #         'HOST': 'db',
-    #         'PORT': '5432',
-    #         'PASSWORD': 'postgres',
-    #     }
-    # }
-        DATABASES = {
-        'default': {
-            'ENGINE': 'django.db.backends.postgresql_psycopg2',
-            'NAME': 'TEN',
-            'USER': 'postgres',
-            'HOST': 'localhost',
-            'PORT': '5432',
-            'PASSWORD': 'postgres',
+
+    DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': 'TEN',
+        'USER': 'postgres',
+        'HOST': 'localhost',
+        'PORT': '5432',
+        'PASSWORD': 'postgres',
         }
     }
     
