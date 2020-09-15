@@ -20,7 +20,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['0.0.0.0', 'localhost', '127.0.0.1',
                  'ten-backend-api.herokuapp.com', 'api-env.eba-hbpmcpyg.us-west-2.elasticbeanstalk.com',
-                 'api']
+                 'api', 'api-tnapp.eba-ekvpfu3p.us-west-2.elasticbeanstalk.com']
 
 TOKEN_EXPIRE_TIME = datetime.timedelta(days=90)
 # Application definition
