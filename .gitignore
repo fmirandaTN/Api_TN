@@ -1,6 +1,6 @@
 **/__pycache__
 __pycache__/
-# Elastic Beanstalk Filesjoijio
+# Elastic Beanstalk Filesj
 .elasticbeanstalk/*
 !.elasticbeanstalk/*.cfg.yml
 !.elasticbeanstalk/*.global.yml
