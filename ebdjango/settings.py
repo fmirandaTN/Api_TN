@@ -136,8 +136,6 @@ CHANNEL_LAYERS = {
 #         "ROUTING": "chat.routing.channel_routing",
 #     },
 # }
-
-# Database
 # https://docs.djangoproject.com/en/3.0/ref/settings/#databases
 
 if 'DATABASE_URL' in os.environ:
